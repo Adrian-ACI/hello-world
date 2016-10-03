@@ -1,0 +1,16 @@
+despues de usar git init
+git add
+y git commit
+para enviar un archivo a un repositorio maestro de github 
+usamos
+git remote add origin https://github.com/daandradec/Hola-Mundo
+git push -u origin master
+
+y pasamos el nombre de usuario y la contraseña
+
+si queremos definir un repositorio de trabajo utilizamos
+git remote add origin /home/duvan/mytask.git/
+o este
+git remote add origin https://github.com/daandradec/Hola-Mundo
+y si queremos dejar de trabajar con ese repositorio usamos
+git remote rm origin
