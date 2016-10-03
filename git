@@ -1,0 +1,27 @@
+important pages:
+http://stackoverflow.com/questions/34444169/git-pull-generates-fatal-no-remote-repository-specified-error
+http://aprendegit.com/que-es-un-pull-request/
+http://rogerdudler.github.io/git-guide/index.es.html
+https://git-scm.com/book/es/v1/Fundamentos-de-Git-Guardando-cambios-en-el-repositorio
+http://stackoverflow.com/questions/15437719/git-push-error-origin-does-not-appear-to-be-a-git-repository
+
+
+video tutorial
+https://www.youtube.com/watch?v=QGKTdL7GG24
+
+comandos escenciales
+git config --global user.name "Your Name Here"
+
+git config --global user.email "youremail@adress.com"
+
+algunos comandos importantes:
+git init
+git log
+git status
+git log -- graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)
+%C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
+git clone http://github.com/daandradec/hola-Mundo
+git add main.c
+git add .
+enviar: git commit
+git rm main.c
